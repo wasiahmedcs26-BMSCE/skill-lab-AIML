@@ -42,5 +42,15 @@ X=np.linalg.solve(A1,B1)
 print("Solution of the system of equations is")
 print(X)
 
-
-
+#reshapping arrays  
+AB1=np.array([[1,2,3],[4,5,6]])
+print("Reshaped array AB1:")
+AB2=AB1.reshape(3,2)
+print(AB2)
+C=AB1.reshape(3,2)
+print("Reshaped array C:")
+print(C)
+#flattening arrays
+ABC1=np.array([[1,2],[3,4]])
+print("Flattened array ABC1:")
+print(ABC1.flatten())
